@@ -4,7 +4,7 @@ import './guess-form.css';
 
 export default class GuessForm extends React.Component {
     onGuess(event) {
-        event.preventDefault();
+        // event.preventDefault();
 
         if (this.props.onGuess) {
             const value = this.input.value;
@@ -27,3 +27,4 @@ export default class GuessForm extends React.Component {
     }
 };
 
+ 
